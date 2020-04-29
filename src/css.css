@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.list {
+    width: 250px;
+}
+.h-100 {
+    height: 100%;
+}
+.d-flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.logo {
+    display: block;
+    text-indent: -9999px;
+    width: 200px;
+    height: 200px;
+    background: url(./assets/logo.svg);
+    background-size: 200px 200px;
+}
